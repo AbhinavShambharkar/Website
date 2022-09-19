@@ -1,0 +1,366 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Frank Ruhl Libre', serif !important;
+}
+.carousel{
+    height: 600px;
+    margin-bottom: 140px;
+    justify-content: space-between;
+    z-index: -1;
+}
+.carousel .carousel-cell{
+    width: 100%; 
+    
+}
+.carousel .carousel-cell img{
+    width: 120%;
+    height: 650px;
+    /*animation: zoom-out 5s linear infinite;*/
+  
+}
+
+@keyframes zoom-out{
+    100%{
+        width: 100%;
+    }
+}
+
+.carousel .carousel-cell .content {
+    position: absolute;
+    top: 160px;
+    width: 600px;
+    color: #000;
+    left: 140px;
+    font-size: 25px;
+    
+}
+.carousel .carousel-cell img{
+    width : 100%;
+    margin-top: -60px;
+}
+.carousel .carousel-cell .content .header{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.carousel .carousel-cell .content .text p{
+    margin-top: -20px;
+    color: #fff;
+}
+.carousel .carousel-cell .content .button input{
+    background-color: red;
+    color: #fff;
+    height: 42px;
+    width: 30%;
+    font-size: 18px;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+.carousel .carousel-cell .content .button input:hover{
+    background: none;
+    color:  #fff;
+    border: 2px solid #fff;
+}
+
+.products .head{
+    align-self: center;
+    position: relative;
+
+}
+.products .head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-top:-20px;
+    margin-bottom: 20px;
+}
+.products .head h3{
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 240px;
+    margin-top: 50px;
+
+
+}
+.products .one{
+    margin-top: 70px;
+    display: flex;
+}
+
+.products .two{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.products .box{
+    width: 280px;
+    height: 350px;
+    padding-left: 30px; 
+    
+}
+.products .box:hover{
+margin-top : -20px;
+
+}
+.products .box img{
+    width: 100%;
+    height: 80%;
+    
+}
+.products .button2{
+    
+    
+    margin: auto;
+    width: 15%;
+
+}
+.products .button2 input{
+    background-color: black;
+    color: #fff;
+    height: 42px;
+    width: 200px;
+    font-size: 18px;
+    outline: none;
+    margin-top: -20px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-bottom: 40px;
+    
+    
+
+}
+.products .button2 input:hover{
+    border : 2px solid black;
+    color : black;
+    background : transparent;
+}
+.customers img{
+    width: 100%;
+}
+
+
+.about .head{
+    
+    align-self: center;
+    position: relative;
+
+}
+.about .head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-top:-20px;
+    margin-bottom: 0px;
+}
+.about .head h3{
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 170px;
+    margin-top: 50px;
+
+
+}
+.about .back img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+
+.reviews .head{
+    align-self: center;
+    position: relative;
+}
+
+.reviews .head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-top:-20px;
+    margin-bottom: 40px;
+}
+.reviews .head h3{
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 320px;
+    margin-top: 50px;
+
+}
+.carousel2 .box{
+    width: 400px;
+    height: 300px;
+
+}
+.carousel2 .box img{
+    width: 150px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+.carousel2 .box h3{
+    margin-left: 135px;  
+    margin-top: 0px; 
+}
+.carousel2 .box p{
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+		/* footer */
+            .main{
+                background: #292c2f;
+                display: flex;
+                color: #9ba6ab;
+            }
+            .main .details{
+                margin-left: 80px;
+                width: 400px;
+                margin-top: 80px;
+                margin-bottom: 50px;
+            }
+            .main .details p{
+                font-size: 20px;
+            }
+            .main .details .media-icons{
+                margin-top: 30px;
+
+            }
+            .main .details .media-icons a{
+                color: #fff;
+                margin-left: 10px;
+                font-size: 25px;
+                margin-top: 20px;
+
+            }
+
+            .main .details .media-icons a:hover{
+                color: #496bf1;
+            }
+            .tc{
+                margin-top: 50px;
+                color: #fff;
+                margin-left: -10px;
+            }
+            .tc a{
+                color:#9ba6ab;
+                margin-left: 10px;
+                text-decoration: none;
+            }
+            .tc a:hover{
+                color: #496bf1;
+            }
+            .main .contact{
+                margin-left: 110px;
+                width: 300px;
+                margin-top: 80px;
+                margin-bottom: 50px;
+            }
+            .main .contact .content{
+                margin-top: 20px;
+
+            }
+            .main .contact a{
+                margin-top: 30px;
+                margin-left: 30px;
+                font-size: 20px;
+            }
+            .main .contact a:hover{
+                margin-left: 35px;
+                color:#496bf1 ;
+
+            }
+
+            .fa {
+                font-size: 22px;
+                justify-content: center;
+                color: #fff;
+            }
+            .fa:hover{
+                color: #496bf1;
+            }
+
+            .main .msg {
+                margin-left: 60px;
+                margin-top: 80px;
+            }
+            .main .msg input[type="text"]{
+                height: 30px;
+                width: 60%;
+                margin-top: 10px;
+                outline: none;
+                color: #9ba6ab;
+                background: none;
+                padding-left: 10px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                font-size: 17px;
+                border: 1px solid #fff;
+
+            }
+
+            .main .msg  input[type="submit"]{
+                height: 30px;
+                width: 30%;
+                font-size: 18px;
+                color: #d9d9d9;
+                background: red;
+                outline: none;
+                letter-spacing: 1px;
+                cursor: pointer;
+                margin-top: 12px;
+                margin-left: 0px;
+                border: none;
+
+            }
+            .main .msg  input[type="submit"]:hover{
+                background: none;
+                border: 1px solid red;
+            }
+            .bottom{
+                background: #0b1d2d;
+                height: 60px;
+                color: #9ba6ab;
+                display: flex;
+            }
+
+            .bottom p{
+                margin-left: 420px;
+                font-size: 20px;
+            }
+            .bottom a:hover{
+                color: #496bf1;
+            }
+
+
+
+
+
+
+

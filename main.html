@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="main.css"/>
+
+    <style>
+        /* Internal CSS */
+        
+        .navbar{
+            width: 100%;
+            height: 60px;
+            background:transparent;
+            margin-top: 0px;
+            display: flex;
+            color: #fff;
+            font-size: 20px;
+            z-index: 1;
+            
+        }
+        .navbar .right{
+            position: absolute;
+            text-align: center;
+            margin-top: 0px;
+            right: 0px;
+            margin-right: 100px;
+        } 
+        .navbar .right ul{
+            display: flex;
+            text-align: center;
+        }
+        .navbar .right ul li{
+            text-align: center;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            padding: 3px 5px;
+            cursor: pointer;
+            padding: 10px;
+            text-transform: uppercase;
+            transition: .5s;
+            color: #fff;
+            display: inline-block;
+            text-align:center; 
+        }
+        .navbar ul li a:hover{
+            background-color: red;
+            color: #fff;  
+        }
+        .navbar .right ul li{
+            list-style: none;
+            font-size: 1.2rem;
+            padding-left: 25px;
+            color: #000;
+            font: bold; 
+        }
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div  id="home" class="carousel" >
+        <div class="carousel-cell">
+            <div class="content">
+                <div class="header">
+                    <p>Lorem Ipsum is not simply </p>
+                </div>
+                <div class="text">
+                    <p>Lorem Ipsum is not simply random text. 
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 
+                    2000 years old. </p>
+                </div>
+                <div class="button">
+                    <a href="#products">
+                        <input type="submit" value="Know More" name="about">
+                    </a> 
+                </div>
+            </div>
+            <img src="img/candles-surrounded-christmas-decorations.jpg" alt="Image" />
+        </div>
+        
+    </div>
+
+    <div class="products" id="products">
+        <div class="head">
+            <h3>Our Products</h3>
+            <img src="img/images2-removebg-preview.png" alt="Image" />
+            
+        </div>
+        <div class="one">
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        
+ <!-- Inline CSS -->   
+        <div style="margin-top: 100px; display: none; margin-bottom: 100px;" class="three">
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div class="box">
+                <img src="img/candle2.jpg" alt="Image" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        <div class="button2">
+            <a>
+                <input type="submit" id="all" value="View All" >
+            </a> 
+        </div>
+        <hr style="font-size: 40px;">
+    </div>
+
+    <div id="about" class="about">
+        <div class="head">
+            <h3>About Us</h3>
+            <img src="img/images2-removebg-preview.png" alt="Image" />
+            
+        </div>
+    </div>
+
+    <div class="customers">
+        <img src="img/qpXF8ux61590911494.jpg" alt="Image" />
+    </div>
+
+    <div class="reviews" id="reviews">
+        <div class="head">
+            <h3>Customer Reviews</h3>
+            <img src="img/images2-removebg-preview.png" alt="Image" />
+            
+        </div>
+        
+        <div  class="carousel2" data-flickity='{ "wrapArround":true ,"groupCells" :true , "autoPlay":true , "freescroll" : true }'>
+            <div class="box">
+                <img src="img/stars-removebg-preview.png" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.  - Abhinav Shambharkar</p>                
+            </div>
+            <div class="box">
+                <img src="img/stars-removebg-preview.png" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.  - Abhinav Shambharkar</p>
+                 
+                
+            </div>
+            <div class="box">
+                <img src="img/stars-removebg-preview.png" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.  - Abhinav Shambharkar</p>  
+                
+            </div>
+            <div class="box">
+                <img src="img/stars-removebg-preview.png" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.  - Abhinav Shambharkar</p>  
+                
+            </div>
+            <div class="box">
+                <img src="img/stars-removebg-preview.png" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.  - Abhinav Shambharkar</p>  
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer id="contact">
+        <div class="main">
+            <div class="details">
+               <h1>Lorem ipsum dolor</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.</p>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="tc">
+                    <a href=""> Terms And Condition's  |  </a>
+                    <a href=""> Privacy Policy  |  </a>
+                    <a href=""> sitemap </a>
+                </div><br>
+            </div>
+    
+            <div class="contact">
+                <h1>Contact us</h1>
+                <div class="content">
+                    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                    <a>+91 9860215374</a>
+                </div>
+                    <div class="content">
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    <a>abhinav@gmail.com</a>
+                </div>
+                <div class="content">
+                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                    <a>Pune, India</a>
+                </div>
+    
+            </div>
+    
+            <div class="msg">
+                <h1>Get In Touch With Us</h1>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Enter email" name="email" required>
+                    <input type="text" placeholder="Message" name="message" required><br>
+                    <input type="submit" name="Send" value="Send">
+                </form>
+            </div>
+        </div>
+    
+        <div class="bottom">
+            <p>Copyright © 2022 <a>Lorem ipsum dolor</a> All rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+        document.getElementById("all").addEventListener("click",function(){
+            document.querySelector(".three").style.display = "flex";
+            document.querySelector(".button2").style.display = "none";
+        })
+        
+            </script>
+
+
+</body>
+</html>
